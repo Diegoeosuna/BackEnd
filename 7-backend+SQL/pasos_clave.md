@@ -22,7 +22,7 @@ npm init -y
 ```
 5. Crear archivo knex en carpeta db
 ```
-knex init
+npx knex init
 ```
 6. Crear base de datos con knex 
 ```
