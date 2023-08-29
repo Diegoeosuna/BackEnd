@@ -8,9 +8,11 @@
   "name": "7.1-frutas",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "devDependencies": {},
   "scripts": {
     "migrate":"npx knex migrate:latest --knexfile ./database/knexfile.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
