@@ -10,8 +10,8 @@ export default{
     useNullAsDefault: true,
     connection: {
       database: 'frutas',
-      user:     'postgres',
-      password: 'DiegoE224.'
+      user:     process.env.DB_USER,
+      password: process.env.DB_PASSWORD
     },
     pool: {
       min: 2,
